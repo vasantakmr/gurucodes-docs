@@ -66,7 +66,7 @@ const themeConfig = {
     }
 
     const contentLanguage = locales.join(", ");
-    const ogTitle = title ? `${title} – SWR` : `SWR: ${titleSuffix}`;
+    const ogTitle = title ? `${title} – Gurucodes` : `Gurucodes: ${titleSuffix}`;
     const ogDescription = frontMatter.description || description;
     const ogImage = frontMatter.image || imageUrl.toString();
 
@@ -99,7 +99,7 @@ const themeConfig = {
         />
         <meta httpEquiv="Content-Language" content={contentLanguage} />
         <meta name="msapplication-TileColor" content="#ffffff" />
-        <meta name="apple-mobile-web-app-title" content="SWR" />
+        <meta name="apple-mobile-web-app-title" content="Gurucodes" />
         <meta name="description" content={ogDescription} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@vercel" />
