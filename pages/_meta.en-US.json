@@ -4,19 +4,8 @@
     "type": "page",
     "display": "hidden"
   },
-  "docs": {
-    "title": "Docs",
+  "java": {
+    "title": "Java",
     "type": "page"
-  },
-  "examples": {
-    "title": "Examples",
-    "type": "page"
-  },
-  "blog": {
-    "title": "Blog",
-    "type": "page",
-    "theme": {
-      "sidebar": false
-    }
   }
 }

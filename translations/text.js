@@ -6,18 +6,18 @@
 /** @type {Readonly<Record<Locale, string>>} */
 export const languageMap = {
   "en-US": "English",
-  "es-ES": "Español",
-  "fr-FR": "Français",
-  "pt-BR": "Português Brasileiro",
-  "zh-CN": "简体中文",
-  ja: "日本語",
-  ko: "한국어",
-  ru: "Русский",
+  // "es-ES": "Español",
+  // "fr-FR": "Français",
+  // "pt-BR": "Português Brasileiro",
+  // "zh-CN": "简体中文",
+  // ja: "日本語",
+  // ko: "한국어",
+  // ru: "Русский",
 };
 
 /** @type {Readonly<Record<Locale, string>>} */
 export const titleMap = {
-  "en-US": "React Hooks for Data Fetching",
+  "en-US": "Gurucodes",
   "es-ES": "Biblioteca React Hooks para la obtención de datos",
   "fr-FR": "Bibliothèque de React Hooks pour la récupération de données",
   "pt-BR": "React Hooks para Data Fetching",

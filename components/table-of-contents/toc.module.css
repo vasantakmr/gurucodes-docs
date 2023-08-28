@@ -1,0 +1,42 @@
+.toc {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem 2rem;
+  margin: 2.5rem 0 2rem;
+}
+.topic {
+  align-items: center;
+  display: inline-flex;
+}
+.topic h4 {
+  margin: 0 0 0 0.5rem;
+  font-weight: 700;
+  font-size: 1.1rem;
+  white-space: nowrap;
+}
+@media (max-width: 860px) {
+  .toc {
+    gap: 1rem 0.5rem;
+  }
+  
+  .topic svg {
+    width: 20px;
+  }
+  .topic h4 {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 660px) {
+  .toc {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 370px) {
+  .topic h4 {
+    font-size: 0.8rem;
+  }
+  .topic svg {
+    width: 16px;
+    stroke-width: 2.5px;
+  }
+}

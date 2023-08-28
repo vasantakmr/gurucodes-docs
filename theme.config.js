@@ -18,12 +18,12 @@ import {
 /** @type {import('nextra-theme-docs').DocsThemeConfig} */
 const themeConfig = {
   project: {
-    link: "https://github.com/vercel/swr",
+    link: "https://github.com/vasantakmr",
   },
   docsRepositoryBase: "https://github.com/vercel/swr-site/blob/main",
   useNextSeoProps() {
     return {
-      titleTemplate: "%s – SWR",
+      titleTemplate: "%s – Gurucodes",
     };
   },
   toc: {
@@ -43,12 +43,12 @@ const themeConfig = {
     const title = useLocalesMap(titleMap);
     return (
       <>
-        <Logo height={12} />
+        <Logo height={20} />
         <span
-          className="mx-2 font-extrabold hidden md:inline select-none"
-          title={`SWR: ${title}`}
+          className="mx-2 font-bold hidden md:inline select-none"
+          title={`Gurucodes: ${title}`}
         >
-          SWR
+          Gurucodes
         </span>
       </>
     );
@@ -59,7 +59,7 @@ const themeConfig = {
     const titleSuffix = useLocalesMap(titleMap);
     const description = useLocalesMap(headDescriptionMap);
 
-    const imageUrl = new URL("https://swr-card.vercel.app");
+    const imageUrl = new URL("	https://gurucodes.dev/img/logo.svg");
 
     if (!/\/index\.+/.test(route)) {
       imageUrl.searchParams.set("title", title || titleSuffix);
